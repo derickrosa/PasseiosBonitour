@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dataChegada: 2019-08-10
+  dataSaida: 2019-08-10
+  qtdePessoas: 1
+
+two:
+  dataChegada: 2019-08-10
+  dataSaida: 2019-08-10
+  qtdePessoas: 1

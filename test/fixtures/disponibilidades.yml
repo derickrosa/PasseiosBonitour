@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dataHora: 2019-08-10 22:53:47
+  vagas: 1
+  atrativo: one
+
+two:
+  dataHora: 2019-08-10 22:53:47
+  vagas: 1
+  atrativo: two
