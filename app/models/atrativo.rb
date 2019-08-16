@@ -6,4 +6,8 @@ class Atrativo < ApplicationRecord
   validates :duracao, presence: true, numericality: { greater_than_or_equal_to: 0 }
   validates :nome, presence: true
 
+  def get_disponibilidades (dataInicio, dataFim)
+    atrativoService = AtrativoService.new
+    atrativoService.atrativo(codigo, dataInicio, dataFim)['availability']
+  end
 end
